@@ -39,7 +39,6 @@ public class AbsMax {
         int max = arr[0];
         for(int i = 1; i< arr.length; i++)
         {
-
             if (Math.abs(arr[i]) > Math.abs(max)){
                 max = arr[i];
             }
